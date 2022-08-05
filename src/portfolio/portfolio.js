@@ -59,7 +59,7 @@ const projects = [
     description: "A static landing Page",
     stack: ["HTML", "CSS", "Javascript"],
     sourceCode: "https://github.com/Mubbyrex/Landing_page",
-    livePreview: "landing-page-fem.netlify.app",
+    livePreview: "https://landing-page-fem.netlify.app/",
   },
 ];
 
