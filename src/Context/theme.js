@@ -7,7 +7,7 @@ const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     //checking and setting theme to match preferred theme on user's machine
-    const darkMediaQuery = window.matchMedia("prefers-color-scheme:dark");
+    const darkMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
     setThemeMode(darkMediaQuery.matches ? "dark" : "light");
     darkMediaQuery.addEventListener("change", (e) => {
       setThemeMode(e.matches ? "dark" : "light");

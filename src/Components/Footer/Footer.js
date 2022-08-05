@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <a href="https://github.com/Mubbyrex" className="link footer__link">
-        Created By Mubarak O. Mubarak
+        Created By Mubarak O. Ibrahim
       </a>
     </footer>
   );
