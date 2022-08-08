@@ -12,7 +12,12 @@ import Header from "./Components/Header/Header";
 function App() {
   const { themeMode } = ThemeState();
   return (
-    <div id="top" className={`${themeMode} app`}>
+    <div
+      id="top"
+      className={
+        themeMode === "light" ? `${themeMode} app lightbg` : `${themeMode} app`
+      }
+    >
       <Header />
       <main>
         <About />

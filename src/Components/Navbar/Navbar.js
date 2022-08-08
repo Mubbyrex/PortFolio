@@ -71,7 +71,11 @@ const Navbar = () => {
         className="btn btn--icon nav__hamburger"
         aria-label="toggle navigation"
       >
-        {showNavList ? <AiOutlineClose /> : <AiOutlineMenu />}
+        {showNavList ? (
+          <AiOutlineClose size="2em" />
+        ) : (
+          <AiOutlineMenu size="2em" />
+        )}
       </button>
     </nav>
   );
