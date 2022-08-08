@@ -33,3 +33,14 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+.project_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.project_icon:hover {
+  color: var(--clr-primary);
+}
