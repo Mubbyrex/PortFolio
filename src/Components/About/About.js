@@ -15,7 +15,10 @@ const About = () => {
       )}
 
       {role && <h2 className="about__role">A {role}.</h2>}
-      <p>{description && description}</p>
+      <p>
+        {description && description}
+        <span>&#128579;.......</span>
+      </p>
 
       <div className="about__contact center">
         {resume && (

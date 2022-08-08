@@ -8,7 +8,7 @@ const about = {
   name: "Mubarak Ibrahim",
   role: "Software Engineer",
   description:
-    "I am a dynamic and result-oriented Software Engineer, dedicated to creating software applications and achieving the goals of my clients with an innovative and creative mindset. I am a driven hands-on team player and quick in grasping new technologies.",
+    "I am an Enthusiatic and goal-driven Software Engineer,Always eager to perform  and achieving the goals of my clients with an innovative and creative mindset.I love challenges and I am a amazing team player",
   resume:
     "https://drive.google.com/file/d/16w8taJ0KcJNPvFGzKsvQ03qqF9GfMN16/view?usp=sharing",
   social: {
