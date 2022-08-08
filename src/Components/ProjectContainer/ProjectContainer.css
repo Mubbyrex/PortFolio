@@ -5,6 +5,7 @@
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
   width: 100%;
+  background-color: var(--clr-bg);
 }
 
 .project:hover {

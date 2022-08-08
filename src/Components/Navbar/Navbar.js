@@ -59,7 +59,7 @@ const Navbar = () => {
         aria-label="toggle theme"
       >
         {themeMode === "dark" ? (
-          <BsFillSunFill size="2em" />
+          <BsFillSunFill size="2em" style={{ backgroundColor: "#111424" }} />
         ) : (
           <BsFillMoonFill size="2em" />
         )}
