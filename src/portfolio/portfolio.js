@@ -10,7 +10,7 @@ const about = {
   description:
     "I am an Enthusiatic and goal-driven Software Engineer,Always eager to perform  and achieving the goals of my clients with an innovative and creative mindset.I love challenges and I am a amazing team player",
   resume:
-    "https://drive.google.com/file/d/16w8taJ0KcJNPvFGzKsvQ03qqF9GfMN16/view?usp=sharing",
+    "https://drive.google.com/file/d/1uXy3vCLUrxqUIGvHwGi1Pq9SKCAy74hz/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/mubarakibrahimofficial5/",
     github: "https://github.com/Mubbyrex",
