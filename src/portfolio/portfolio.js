@@ -12,7 +12,7 @@ const about = {
   resume:
     "https://drive.google.com/file/d/16w8taJ0KcJNPvFGzKsvQ03qqF9GfMN16/view?usp=sharing",
   social: {
-    linkedin: "linkedin.com/in/mubarak-ibrahim-b7949b21a",
+    linkedin: "https://www.linkedin.com/in/mubarakibrahimofficial5/",
     github: "https://github.com/Mubbyrex",
     twitter: "https://twitter.com/Mubby_official5",
   },
