@@ -64,6 +64,11 @@
     text-align: center;
   }
 
+  .about__contact {
+    text-align: center; /* Center the about__contact section */
+    padding-left: 25%;
+  }
+
   .app .about {
     align-items: flex-start;
     margin-top: 2em;

@@ -123,5 +123,11 @@
     grid-template-columns: 1fr;
     flex-direction: column;
     align-items: center;
+    text-align: center; /* Center the certification__grid section */
+    width: fit-content;
+  }
+
+  .certificate {
+    width: fit-content;
   }
 }
