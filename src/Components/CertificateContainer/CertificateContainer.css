@@ -1,0 +1,36 @@
+.certificate {
+  padding: 2em;
+  margin: 1em;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  width: 100%;
+  background-color: var(--clr-bg);
+  border-radius: 10px;
+}
+
+.certificate:hover {
+  transform: translateY(-7px);
+}
+
+.certificate__title {
+  font-size: 1.5rem;
+  color: var(--clr-primary);
+}
+
+.certificate__provider,
+.certificate__year {
+  margin: 0.5em 0;
+  color: var(--clr-fg-alt);
+}
+
+.certificate__link {
+  display: block;
+  margin-top: 1em;
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+.certificate__link:hover {
+  text-decoration: underline;
+}

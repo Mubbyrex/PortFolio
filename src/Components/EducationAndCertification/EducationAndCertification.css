@@ -1,0 +1,127 @@
+.footer {
+  padding: 3em 0;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.education-certification {
+  margin: 2em 0;
+}
+
+.education-certification__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.education-certification__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education-certification__item {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid var(--clr-fg);
+  border-radius: 5px;
+  background-color: var(--clr-bg-alt);
+}
+
+.education-certification__item h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.education-certification__item p {
+  margin: 0.5em 0 0;
+  color: var(--clr-fg-alt);
+}
+
+.section {
+  padding: 2em 0;
+}
+
+.section__title {
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-size: 2rem;
+  color: var(--clr-primary);
+}
+
+.education-certification__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.education-list,
+.certification-list {
+  flex: 1;
+  margin: 0 1em;
+}
+
+.education-item,
+.certification-item {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid var(--clr-fg);
+  border-radius: 5px;
+  background-color: var(--clr-bg-alt);
+}
+
+.education-item h3,
+.certification-item h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.education-item p,
+.certification-item p {
+  margin: 0.5em 0 0;
+  color: var(--clr-fg-alt);
+}
+
+.certification-item a {
+  display: block;
+  margin-top: 0.5em;
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+.certification-item a:hover {
+  text-decoration: underline;
+}
+
+.certification__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .certification__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .education-certification {
+    margin: 1em 0;
+  }
+
+  .education-certification__container {
+    flex-direction: column;
+  }
+
+  .education-list,
+  .certification-list {
+    margin: 0;
+  }
+
+  .certification__grid {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
+  }
+}

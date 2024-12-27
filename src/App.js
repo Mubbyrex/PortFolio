@@ -8,6 +8,9 @@ import {} from "./Context/theme";
 import { ThemeState } from "./Context/theme";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 import Header from "./Components/Header/Header";
+import WorkExperience from "./Components/WorkExperience/WorkExperience";
+import EducationAndCertification from "./Components/EducationAndCertification/EducationAndCertification";
+import BlogAndResearch from "./Components/BlogAndResearch/BlogAndResearch";
 
 function App() {
   const { themeMode } = ThemeState();
@@ -40,8 +43,11 @@ function App() {
       <Header />
       <main>
         <About />
+        <WorkExperience />
+        <EducationAndCertification />
         <Projects />
         <Skills />
+        <BlogAndResearch />
         <Contact />
       </main>
       <ScrollToTop />
