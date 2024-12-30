@@ -8,11 +8,11 @@ const about = {
   name: "Mubarak Ibrahim",
   role: ["DevOps Engineer", "Cloud Developer"],
   description: [
-    "I’m a DevOps Engineer specializing in building secure, scalable cloud infrastructures. From Terraform and Kubernetes to Jenkins and Docker, I love turning complex challenges into streamlined solutions. With multiple cloud certifications and a proven track record of designing, deploying, and optimizing cloud solutions that align with financial compliance, I bring both expertise and innovation to the table.",
-    "And when it comes to building in the cloud, I focus on creating scalable, serverless backend applications. With real-world experience developing software on leading cloud platforms, I’ve worked extensively with tools like Spring Boot and Node.js to deliver efficient, reliable solutions. My expertise lies in authentication and authorization, ensuring secure and smooth integrations with third-party authentication services.",
+    "I’m a DevOps Engineer specialized in building secure, scalable cloud infrastructures. From Terraform and Kubernetes to Jenkins and Docker, I love turning complex challenges into streamlined solutions. With multiple cloud certifications and a proven track record of designing, deploying, and optimizing cloud solutions that align with financial compliance, I bring both expertise and innovation to the table.",
+    "When it comes to building in the cloud, I focus on creating scalable, serverless backend applications. With real-world experience developing software on leading cloud platforms, I’ve worked extensively with tools like Spring Boot and Node.js to deliver efficient, reliable solutions. My expertise lies in authentication and authorization, ensuring secure and smooth integrations with third-party authentication services.",
   ],
   resume:
-    "https://drive.google.com/file/d/1uXy3vCLUrxqUIGvHwGi1Pq9SKCAy74hz/view?usp=sharing",
+    "https://drive.google.com/file/d/1moqGeAWtrzOZzq7v0AVgC5IpWhiC-kr4/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/mubarakibrahimofficial5/",
     github: "https://github.com/Mubbyrex",
