@@ -79,6 +79,8 @@ const skills = [
   "Helm",
   "GitOps",
   "OpenTelemetry",
+  "Calypso",
+  "Prometheus",
 
   // Backend
   "NodeJS",
@@ -118,9 +120,9 @@ const workExperience = [
     company: "Seaico Technologies Limited",
     duration: "June 2023 - Present",
     description: [
-      "Automated infrastructure provisioning with Ansible, reducing manual configuration efforts and ensuring consistent environment setups across on-premises servers and OCI compute instances.",
+      "Automated configuration management for provisioned infrastructure using Ansible, reducing manual efforts by 50% and ensuring consistent environment setups across on-premises servers and OCI compute instances.",
       "Enhanced observability by integrating CloudWatch logs with Prometheus and Grafana, improving issue detection and resolution efficiency through comprehensive metric-trace-log correlation.",
-      "Streamlined system operations by automating repetitive tasks using Python and Bash, saving significant manual effort and improving reliability across critical systems.",
+      "Streamlined system operations by automating repetitive tasks using Python and Bash, cutting manual effort by at least 40% and boosting reliability across critical systems.",
       "Designed and implemented scalable, high-availability cloud infrastructures and CI/CD pipelines using Jenkins, AWS, and Kubernetes, cutting deployment time nearly in half.",
       "Spearheaded the development of robust disaster recovery plans with AWS Route 53, Elastic Load Balancers, and EC2 instances, significantly enhancing system resilience and recovery capabilities.",
       "Collaborated with stakeholders to define and track service-level indicators (SLIs) and objectives (SLOs), aligning technical solutions with evolving business needs.",
@@ -134,16 +136,26 @@ const workExperience = [
     company: "Seaico Technologies Limited",
     duration: "June 2023 - Present",
     description: [
-      "Collaborated with a team of four developers to design and develop a proprietary retail FX banking application, focusing on system architecture, authentication, authorization, and integration with third-party authentication systems like LDAP. Delivered containerized solutions on time, ensuring high-quality standards.",
+      "Worked in a team of four developers to design and develop a proprietary retail FX banking application, architecting system components for authentication, authorization, and third-party integrations (e.g., LDAP). Delivered containerized solutions using Docker, meeting high-quality standards and ensuring seamless deployment.",
       "Developed serverless cloud applications using AWS Lambda and Node.js, optimizing performance and scalability for critical workloads.",
       "Authored comprehensive software design and solution architecture documentation for the implementation of Calypso, a proprietary treasury management solution, used by major African banks.",
       "Contributed to the customization and extension of Calypso to meet the specific needs of leading African banks, enhancing its functionality and aligning it with client requirements.",
     ],
   },
   {
+    jobTitle: "Cloud DevOps Engineer",
+    company: "Zepto Leaps",
+    duration: "November 2022 - April 2023",
+    description: [
+      "Spearheaded the deployment of a startup application on AWS Spot Instances, leveraging Node Groups for resource management and an Application Load Balancer for traffic routing and high availability. Utilized Amazon RDS for database management, ensuring scalability and reliability.",
+      "Developed SSM Automation Documents to automate snapshot creation for Spot EC2 instances and Amazon RDS, ensuring consistent and reliable backups to support scaling and replication requirements.",
+      "Authored comprehensive documentation of processes, configurations, and best practices developed during execution and deployment, ensuring knowledge transfer and operational continuity.",
+    ],
+  },
+  {
     jobTitle: "Cloud Engineer",
     company: "Cloud Heroes Africa",
-    duration: "October 2022 - May 2023",
+    duration: "July 2022 - May 2023",
     description: [
       "Led the containerization of on-premises applications, enabling seamless migration to Linode Cloud and improving application scalability, performance, and maintainability.",
       "Conducted in-depth research and analysis to evaluate technology options, providing tailored recommendations to address diverse technical challenges effectively.",
